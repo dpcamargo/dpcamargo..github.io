@@ -17,7 +17,11 @@
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
   </head>
+
   <body class="is-preload">
+    <!-- <div class="overlay">
+    
+    </div> -->
     <!-- Page Wrapper -->
     <div id="page-wrapper">
       <!-- Wrapper -->
@@ -165,12 +169,12 @@
           </div>
 
           <div class="gallery">
-            <!-- TODO: onclick image, open it in the middle of screen -->
 
-            <div id="code_modal" class="modal loaded" tabindex="-1">
+            <div id="code_modal" class="modal visible loaded" tabindex="-1">
               <div class="inner">
                 <div id="code_modal_iframe_container">
-                  <iframe id="code_modal_iframe" ></iframe> 
+                  <div id="close" ></div>
+                  <iframe src="projects/project1/index.html" id="code_modal_iframe"></iframe>
                 </div>
               </div>
             </div>
@@ -178,17 +182,17 @@
             <div
               class="image filtered span-2-5 project_container"
               data-position="top"
-              project-src="projects/project1.html" 
-            > <!-- project-src = path to html file -->
+              project-src="projects/project1/index.html"
+            >
+              <!-- project-src = path to html file -->
               <div class="project_container_content">
-                <h2>Lorem ipsum</h2>
-                <hr />
+                <h2>Programa de fidelidade com clusterização de clientes</h2>
+                <br>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Elementum nibh tellus molestie nunc non blandit massa enim
-                  nec. Magna fermentum iaculis eu non. Turpis egestas pretium
-                  aenean pharetra. Aliquet nibh praesent tristique magna.
+                  Segmentação de um grupo de clientes com base em suas
+                  características para performance de compra, a fim de
+                  selecionar grupos de clientes para formação de um programa de
+                  Fidelidade com o objetivo de aumentar a receita da empresa.
                 </p>
               </div>
               <img class="top" src="images/portfolio_1.jpg" alt="" />
@@ -197,25 +201,21 @@
             <div
               class="image filtered span-2-5 project_container"
               data-position="top"
-              project-src="projects/project2.html" 
+              project-src="projects/project2.html"
             >
+              <!-- project-src = path to html file -->
               <div class="project_container_content">
-                <h2>Lorem Ipsum</h2>
+                <h2>Maximização de lucros na compra e revenda de imóveis</h2>
+                <br>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Sagittis nisl rhoncus mattis rhoncus urna. Molestie nunc non
-                  blandit massa enim. Varius quam quisque id diam vel quam.
-                  Egestas egestas fringilla phasellus faucibus. Laoreet id donec
-                  ultrices tincidunt arcu. Dictumst quisque sagittis purus sit.
-                  Ultricies mi eget mauris pharetra et ultrices neque. Volutpat
-                  consequat mauris nunc congue. Enim sed faucibus turpis in eu
-                  mi bibendum.
+                  Identificação de imóveis abaixo do preço médio de venda e
+                  definição do preço ideal de revenda, partindo de uma análise
+                  exploratória de dados.
                 </p>
               </div>
-              <img src="images/portfolio_2.webp" alt=""
-            /></div>
-          </div>
+              <img class="top" src="images/portfolio_2.webp" alt="" />
+            </div>
+
         </section>
 
         <!-- Panel -->
