@@ -1037,7 +1037,8 @@ input[type="radio"] + label:before {
   width: 85%;
   margin: 0 auto;
   margin-top: 2000px;
-  background-color: rgba(19, 17, 17, 0.616); 
+  background-color: rgba(19, 17, 17, 0.616);
+  padding: 1rem;
 }
 
 .project_container_content h2 {
